@@ -1,0 +1,22 @@
+.App {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  background-color: #0000FF;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: flex-start;
+  color: white;
+}
+
+.popover {
+  position: absolute;
+  background-color: fuchsia;
+  top: 0px;
+  left: 50px;
+  padding: 20px;
+}
